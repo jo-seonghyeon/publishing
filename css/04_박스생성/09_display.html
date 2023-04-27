@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='ko'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Document</title>
+        <style>
+            #hello{
+                background: red;
+                width: 400px;
+                height: 200px;
+                display: inline;
+            }
+            #hello:hover{
+                display: inline-block;
+                background: lime;
+            }
+            .box{
+                display: inline;
+
+            }
+            /* #hello가 hover 상태일때만 inline-block이고 평고에는 inline이 되도록 */
+        </style>
+    </head>
+    <body>
+        <span id="hello">안녕하세요</span>
+
+        <div class="box">
+            <input type="text" value="1">
+            <input type="text" value="2">
+            <input type="text" value="3">
+            <input type="text" value="4">
+            <input type="text" value="5">
+        </div> 
+    </body>
+</html>
